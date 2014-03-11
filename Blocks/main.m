@@ -4,7 +4,8 @@
 //
 //  Created by wangtao on 14-3-7.
 //  Copyright (c) 2014年 wto. All rights reserved.
-//
+//  http://blog.csdn.net/kesalin/article/details/8870578
+//  http://www.cnbluebox.com/?p=255
 
 #import <Foundation/Foundation.h>
 
