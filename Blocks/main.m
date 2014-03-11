@@ -8,6 +8,7 @@
 //  http://www.cnbluebox.com/?p=255
 
 #import <Foundation/Foundation.h>
+#import "AClass.h"
 
 // This always works. The stack for exampleA doesn’t go away until after the block has finished executing. So whether the block is allocated on the stack or the heap, it will be valid when it is executed.
 void exampleA() {
@@ -92,7 +93,8 @@ int main(int argc, const char * argv[])
 {
 
     @autoreleasepool {
-        
+        AClass *aclass = [[AClass alloc] init];
+        [aclass work3];
     }
     return 0;
 }

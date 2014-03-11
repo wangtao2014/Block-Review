@@ -10,6 +10,7 @@
 		28D2A7F418C9C282008CE1DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28D2A7F318C9C282008CE1DC /* Foundation.framework */; };
 		28D2A7F718C9C282008CE1DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D2A7F618C9C282008CE1DC /* main.m */; };
 		28D2A7FB18C9C282008CE1DC /* Blocks.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 28D2A7FA18C9C282008CE1DC /* Blocks.1 */; };
+		28DC907918CF05110047E554 /* AClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 28DC907818CF05100047E554 /* AClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -32,6 +33,8 @@
 		28D2A7F918C9C282008CE1DC /* Blocks-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Blocks-Prefix.pch"; sourceTree = "<group>"; };
 		28D2A7FA18C9C282008CE1DC /* Blocks.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Blocks.1; sourceTree = "<group>"; };
 		28DA0CC618CD6C050045F65C /* ReadMe.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReadMe.txt; sourceTree = "<group>"; };
+		28DC907718CF05100047E554 /* AClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AClass.h; sourceTree = "<group>"; };
+		28DC907818CF05100047E554 /* AClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +52,8 @@
 		28D2A7E718C9C282008CE1DC = {
 			isa = PBXGroup;
 			children = (
+				28DC907718CF05100047E554 /* AClass.h */,
+				28DC907818CF05100047E554 /* AClass.m */,
 				28DA0CC618CD6C050045F65C /* ReadMe.txt */,
 				28D2A7F518C9C282008CE1DC /* Blocks */,
 				28D2A7F218C9C282008CE1DC /* Frameworks */,
@@ -141,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28DC907918CF05110047E554 /* AClass.m in Sources */,
 				28D2A7F718C9C282008CE1DC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
